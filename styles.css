@@ -1,0 +1,58 @@
+body{
+    background: rgb(255, 255, 255);
+}
+.post-header{
+    display:flex;
+    flex-flow:column;
+    width: 600;
+    height: 65px;
+    background: cornflowerblue;
+    
+  
+}
+.fa-solid fa-ellipsis-vertical{
+    color: darkblue;
+    align-self: center;
+}
+h1{
+    font-family: 'Supermercado One', cursive;    
+    font-size: 30px;
+    align-self:initial;
+}
+  
+ .box{
+     width: auto;
+     height: 30px;
+     margin-top: 0cm;
+     border-width: 2px;
+     border-color: burlywood;
+     border-style: solid;
+ } 
+ .box>h1{
+     font-size: 2;
+ }
+.post{
+    width: 600px;
+    height: 700px;
+    align-content: center;
+    margin:0 auto;
+}
+img{
+    width: 100%;
+    }
+p{
+    align-content: center;
+    padding-left: 10px;
+}
+.post-footer{
+    width: 600px;
+    height: autox;
+    background: rgb(255, 252, 252);
+}
+.fa-light fa-heart{
+   margin-left: auto;
+    color: darkblue;
+}
+body{
+    background-color: black;
+}
