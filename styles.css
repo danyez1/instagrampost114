@@ -4,9 +4,9 @@ body{
 .post-header{
     display:flex;
     flex-direction: row;
-    width: 600;
+    width: auto;
     height: 65px;
-    background: cornflowerblue;
+    background: rgb(255, 255, 255);
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -21,7 +21,6 @@ body{
 .icon1{
        display: flex;
       justify-content: flex-end;
-
   }
 
 .boxtex{
@@ -39,51 +38,66 @@ h2{
     margin: 0%;
 }
   
- .box{
-    display: flex;
-    flex-direction: row,2px;
-     width: auto;
-     height: 30px;
-     margin-top: 0cm;
-     border-width: 2px;
-     border-color: rgb(255, 255, 255);
-     border-style: solid;
- } 
- .fas fa-bookmark{
-     justify-content: flex-end;
- }
+ 
  .box>h1{
      font-size: 2;
  }
- .box{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
- }
-
+ 
 .post{
     width: 600px;
-    height: 700px;
+    height: 900px;
     align-content: center;
     margin:0 auto;
     justify-content: space-between;
+
 }
 img{
     width: 100%;
+    margin-bottom: auto;
+    height: auto;
+    padding-bottom: 0cm;
     }
 p{
     align-content: center;
     padding-left: 10px;
 }
-.post-footer{
-    
-    width: 600px;
-    height: autox;
+.post-footer{   
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    height: auto;
     background: rgb(255, 252, 252);
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0cm;
+   
 }
-.fa-light fa-heart{
-   margin-left: auto;
-    color: darkblue;
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+} 
+
+.icon3 {
+    display:flex;
+    justify-content: flex-end;
+    color: rgba(0, 0, 0, 0.959);
+    padding: 1px;
+}
+.text{
+    width: auto;
+    height: auto;
+}
+p{
+    padding: auto;
 }
 body{
     background-color: black;
